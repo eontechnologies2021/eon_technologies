@@ -13,7 +13,11 @@
         color:#cccccc;
     }
 /* Waves CSS */
-
+@media screen and (max-width:1000px) {
+    .container-wave{
+        display:none;
+    }
+}
     @keyframes move_wave {
         0% {
             transform: translateX(0) translateZ(0) scaleY(1)
